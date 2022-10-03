@@ -1,0 +1,14 @@
+h1 {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    color: #C2185B;
+    box-sizing: content-box;
+
+}
+
+.btn-primary {
+    background-color: #C2185B;
+    border: none;
+}

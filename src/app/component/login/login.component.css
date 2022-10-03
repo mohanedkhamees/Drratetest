@@ -1,0 +1,20 @@
+.login,
+.image {
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url("/assets/home.png");
+
+    background-size: cover;
+    background-position: center center;
+}
+
+.btn.btn-primary {
+    background-color: #C2185B;
+    border: none;
+}
+
+.login {
+    background-color: #dcdcdc;
+}
