@@ -1,43 +1,46 @@
 <p style="margin:  0;">
 
-  <mat-toolbar class="toolbar">
+<mat-toolbar class="toolbar">
 
-    
 <button mat-icon-button [matMenuTriggerFor]="menu" class="burgermenu" aria-label="Example icon-button with a menu">
   <mat-icon>menu</mat-icon>
 </button>
+
 <mat-menu #menu="matMenu" class="menucolor">
-  <button mat-menu-item class="box" routerLink="/arzte" routerLinkActive="active" >
+
+  <button mat-menu-item class="box" routerLink="/alldoctor" routerLinkActive="active" >
     <fa-icon [icon]="arzt" class="menuicons">   </fa-icon>
-    <span class="menuitems" >      Arzte</span>
+    <span>Arzte</span>
   </button>
+
   <button mat-menu-item routerLink="/apotheke" routerLinkActive="active">
     <fa-icon [icon]="apotheke" class="box" class="menuicons">   </fa-icon>
-    <span >Apotheken</span>
+    <span>Apotheken</span>
   </button>
+
   <button mat-menu-item routerLink="/uberuns" routerLinkActive="active">
     <fa-icon [icon]="Info" class="menuicons"></fa-icon>
-    <span >Über uns</span>
+    <span>Über uns</span>
   </button>
-   <button mat-menu-item routerLink="/kontakt" routerLinkActive="active">
+
+  <button mat-menu-item routerLink="/kontakt" routerLinkActive="active">
     <fa-icon [icon]="kontakt" class="menuicons"></fa-icon>
-    <span >Kontakt</span>
+    <span>Kontakt</span>
   </button>
-  
-  <button routerLink="/login" routerLinkActive="active" mat-raised-button color="primary"  class="loginmenu" aria-label="Example icon-button with share icon">
-   Login
- </button>
+
+  <button routerLink="/login" routerLinkActive="active" mat-raised-button color="primary"  class="loginmenu">
+   Login</button>
   <p ></p>
-  <button routerLink="/adddoctor" routerLinkActive="active" mat-raised-button color="primary"  class="loginmenu" aria-label="Example icon-button with share icon">
-   <span >adddoctor</span>
- </button>
+
+  <button routerLink="/adddoctor" routerLinkActive="active" mat-raised-button color="primary"  class="loginmenu">
+   adddoctor
+  </button>
+
 </mat-menu>
 
-   <button routerLink="/home" routerLinkActive="active" mat-button class="logo"  aria-label="Example icon-button with menu icon">
+  <button [matMenuTriggerFor]="menu" routerLink="/home" routerLinkActive="active" mat-button class="logo">
       <img src="../assets/logo.png" alt="" width="110rem"  height="50rem">
-    </button> 
-  
-  
+  </button> 
   <span class="example-spacer">
     <div class="liste">
       <ul routerLink="/arzte" routerLinkActive="active">Arzte</ul>
@@ -45,20 +48,23 @@
       <ul routerLink="/uberuns" routerLinkActive="active">Über uns</ul>
       <ul routerLink="/kontakt" routerLinkActive="active">Kontakt</ul>
     </div>
-    
     </span>
+
   <button mat-icon-button class="example-icon favorite-icon" class="icon"  aria-label="Example icon-button with heart icon">
     <mat-icon>language</mat-icon>
   </button>
+
   <button mat-icon-button class="example-icon" class="icon" aria-label="Example icon-button with share icon">
    <mat-icon>favorite</mat-icon>
- </button>
+  </button>
+
   <button mat-icon-button class="example-icon" class="icon" aria-label="Example icon-button with share icon">
    <mat-icon>share</mat-icon>
- </button>
+  </button>
+
   <button routerLink="/login" routerLinkActive="active" mat-raised-button color="primary"  class="login" aria-label="Example icon-button with share icon">
    Login
- </button>
+  </button>
   
 </mat-toolbar>
 </p>

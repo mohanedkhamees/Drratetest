@@ -1,28 +1,22 @@
 .example-spacer {
     flex: 1 1 auto;
-
-
 }
 
 .toolbar {
     background-color: #0B152B;
-
 }
 
 .example-icon {
     padding: 0 0 0 0;
     background-color: #0B152B;
     border: none;
-
 }
 
 :hover.example-icon {
     cursor: pointer;
-
 }
 
 ul {
-
     padding: 1rem 0 0 1rem;
 }
 
@@ -34,14 +28,9 @@ ul {
     padding-left: 2rem;
     padding-right: 2rem;
     align-items: center;
-
-
-
-
 }
 
 .box {
-
     outline: none !important;
     user-select: none !important;
 }
@@ -50,36 +39,39 @@ ul {
     background-color: #0B152B;
     border: none;
     color: aliceblue;
-
 }
 
 
 .menuicons {
     margin-right: 25px;
+
 }
+
 
 .login {
     margin-left: 1rem;
-
-
 }
 
 .loginmenu {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     background-color: #13203d;
+    width: 110px;
+    border-radius: 20px;
+
+
 }
 
 ::ng-deep.menucolor {
     background: #C2185B;
+    padding-bottom: 1rem;
+
 }
 
 @media (max-width : 768px) {
     .login {
         display: none;
     }
-
-
-
 
     .icon {
         display: none;
@@ -89,19 +81,15 @@ ul {
         display: none;
     }
 
-
     .logo {
         margin: 0 0 0 7.2rem;
     }
-
 }
 
 @media (min-width : 769px) {
 
-
     .burgermenu {
         display: none;
     }
-
 
 }
