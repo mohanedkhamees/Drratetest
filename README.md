@@ -1,3 +1,5 @@
+https://static1.squarespace.com/static/613f1e4d6b0212660acd9923/t/614b246e46489736a4adabb4/1632314478756/Horizontal_nobackground.png?format=1500w
+
 # Drrate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
